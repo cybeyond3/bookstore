@@ -1,0 +1,99 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 11:25:38 2017] ***
+compiled with version: 5.4.0 20160609 on 04 December 2017 20:59:15
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/codespace/20171204/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /home/atguigu/.virtualenvs/py1/bin/uwsgi
+chdir() to /home/atguigu/codespace/20171204/bookstore
+your processes number limit is 15550
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/atguigu/.virtualenv/py1
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ImportError: No module named 'encodings'
+
+Current thread 0x00007f75e225f700 (most recent call first):
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 14:18:37 2017] ***
+compiled with version: 5.4.0 20160609 on 11 November 2017 10:44:14
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/codespace/20171204/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/atguigu/codespace/20171204/bookstore
+your processes number limit is 15550
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 14:21:51 2017] ***
+compiled with version: 5.4.0 20160609 on 11 November 2017 10:44:14
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/codespace/20171204/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/atguigu/codespace/20171204/bookstore
+your processes number limit is 15550
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Dec 15 14:24:12 2017] ***
+compiled with version: 5.4.0 20160609 on 11 November 2017 10:44:14
+os: Linux-4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/atguigu/codespace/20171204/bookstore
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/atguigu/codespace/20171204/bookstore
+your processes number limit is 15550
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9001 fd 3
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/atguigu/.virtualenvs/py1
+Python main interpreter initialized at 0x1df8920
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415280 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+unable to load app 0 (mountpoint='') (callable not found or import error)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1df8920 pid: 6013 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6013)
+spawned uWSGI worker 1 (pid: 6015, cores: 2)
+spawned uWSGI worker 2 (pid: 6016, cores: 2)
+spawned uWSGI worker 3 (pid: 6018, cores: 2)
+spawned uWSGI worker 4 (pid: 6020, cores: 2)
+[pid: 6015|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 659 bytes} [Fri Dec 15 06:24:32 2017] GET / => generated 13079 bytes in 1021 msecs (HTTP/1.1 200) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 6015|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 745 bytes} [Fri Dec 15 06:25:36 2017] GET / => generated 13079 bytes in 317 msecs (HTTP/1.1 200) 6 headers in 215 bytes (1 switches on core 1)
+[pid: 6016|app: 0|req: 1/3] 127.0.0.1 () {44 vars in 745 bytes} [Fri Dec 15 06:32:04 2017] GET / => generated 13079 bytes in 955 msecs (HTTP/1.1 200) 6 headers in 215 bytes (1 switches on core 0)
